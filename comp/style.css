@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.header {
+    background-color: black;
+    color: white;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    gap: 20px;
+    width: 92%;
+    margin: auto;
+    justify-content: end;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #1475a5;
+}
+.heading {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    font-size: 55px;
+    font-weight: normal;
+    color: white; 
+    font-family: times new roman;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+    font-size: 18px;
+}
+.container {
+    width: 100%;
+    height: 100vh; 
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('assets/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 60px;
+    left: 120px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.containerfoot {
+    width: 100%;
+    color: white;
+    background-color: black; /* White background for the container */
+}
+.heading-h3{
+    color: white;
+    font-family: Arial;
+    font-size: 23px;
+    font-weight: normal;
+}
+.heading-h4{
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container2 {
+    width: 100%;
+    height: 90vh;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('assets/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-container {
+    width: 80%; /* Adjust width as needed */
+    height: 65%; /* Adjust height as needed */
+    overflow: hidden; /* Hide overflow to create the sliding effect */
+    position: relative;
+    background: rgba(255, 255, 255, 0); /* Optional: Add a slight background for better card visibility */
+    border-radius: 15px; /* Optional: Rounded corners for the carousel container */
+}
+
+.carousel-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto; /* Horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    white-space: nowrap; /* Keep children in a single line */
+    scroll-behavior: smooth; /* Smooth scrolling */
+    padding: 10px; /* Space inside the carousel */
+}
+
+.carousel {
+    display: inline-flex; /* Align cards horizontally */
+    height: 100%;
+    align-items: center; /* Center cards vertically */
+    gap: 20px; /* Space between cards */
+}
+
+.card {
+    width: 220px; /* Adjust width as needed */
+    height: 280px; /* Adjust height as needed */
+    border-radius: 10px; /* Uniform border radius for all cards */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    flex-shrink: 0; /* Prevent cards from shrinking */
+    padding: 20px; /* Add padding inside cards */
+}
+
+.card-1 {
+    background-color: #ffffff; /* Specific color for the first card */
+    width: 150px; /* Custom width for the first card */
+}
+
+.card-2 {
+    background-color: #ffffff; /* Specific color for the second card */
+}
+
+.card-3 {
+    background-color: #3b4b43; /* Specific color for the third card */
+}
+
+.card-4 {
+    background-color: #f2fff8; /* Specific color for the fourth card */
+}
+
+.card-5 {
+    background-color: #ffffff; /* Specific color for the fifth card */
+}
+
+.card:first-child .icon-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.card:first-child .card-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 16px;
+}
+
+.card-logo img {
+    max-width: 100%; /* Ensure the logo fits within the card */
+    max-height: 100%;
+}
+
+/* Optional: Add media query for responsiveness */
+@media (max-width: 768px) {
+    .card {
+        width: 150px; /* Adjust width for smaller screens */
+        height: 150px; /* Adjust height for smaller screens */
+        font-size: 16px;
+    }
+
+    .card:first-child .icon-button {
+        font-size: 20px;
+    }
+
+    .card:first-child .card-text {
+        font-size: 14px;
+    }
+}
+/* Footer Styles */
+/* Footer Styles */
+footer {
+display:flex;
+flex-direction: column;
+background-color: black;
+color: #fff;
+text-align: center;
+position: relative;
+bottom: 0px;
+width: 100%;
+}
+.footer-container {
+display: flex;
+flex-direction: row;
+justify-content: right;
+gap: 20px;
+width: 96%;
+}
+.footer-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left  ;
+    gap: 20px;
+    width: 96%;
+    }
+.footer-container2 h1{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-left: 20px;
+    text-align: left;
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: normal;
+}
+.footer-container2 a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-left: 20px;
+    font-family: Arial;
+    font-size: 21px;
+    font-weight: normal;
+}
+.footer-social {
+display: flex;
+justify-content: start;
+align-items: start;
+font-family: Arial;
+font-weight: normal;
+font-size: 12px;
+}
+.footer-social a{
+display: flex;
+justify-content: start;
+align-items: start;
+color: #5c5e65;
+text-decoration: none;
+font-family: Arial;
+font-weight: normal;
+font-size: 12px;
+text-align: left;
+}
+
+.footer-social a:hover{
+display: flex;
+justify-content: start;
+align-items: start;
+color: #fff;
+text-decoration: underline;
+font-family: Arial;
+font-weight: normal;
+font-size: 12px;
+text-align: left;
+}
+
+.footer-social {
+display: flex;
+flex-direction: column;
+align-items: left;
+}
